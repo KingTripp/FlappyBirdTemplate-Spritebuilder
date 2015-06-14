@@ -128,7 +128,7 @@
 - (void)update:(CCTime)delta
 {
     // move and loop the bushes
-    for (CCNode *bush in _bushes) {
+    /*for (CCNode *bush in _bushes) {
         // move the bush
         bush.position = ccp(bush.position.x -
                             (character.physicsBody.velocity.x * delta), bush.position.y);
@@ -153,7 +153,7 @@
             cloud.position = ccp(cloud.position.x +
                                  2 * cloud.contentSize.width, cloud.position.y);
         }
-    }
+    } */
     
     NSMutableArray *offScreenObstacles = nil;
     
